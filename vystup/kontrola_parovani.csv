@@ -1,0 +1,26 @@
+﻿zdroj,ukazatel,pocet,podil
+ARES,subjekty veřejného rejstříku celkem,1290482,1.0
+ARES,aktivní ke dni dat,896056,0.6944
+ARES,území: adresní místo RÚIAN,1228318,0.9518
+ARES,území: nezjištěno,32254,0.025
+ARES,území: RES podle IČO,20777,0.0161
+ARES,území: název obce a okresu,8750,0.0068
+ARES,území: jen okres,383,0.0003
+ARES,nalezeno v RES podle IČO,1005757,0.7794
+ARES,aktivní nalezené v RES podle IČO,887917,0.9909
+ARES,bez data zápisu (nezapočítáno),0,0.0
+ARES,výmaz před zápisem,1,0.0
+ARES,"v městě s MČ, MČ nezjištěna",839,0.0013
+RES,řádky souboru celkem,3537498,1.0
+RES,"zaniklé bez údajů (jen IČO a datum zániku, v řádku nezjištěno)",495789,0.1402
+RES,subjekty s údaji,3537498,1.0
+RES,aktivní ke dni dat,2956015,0.8356
+RES,území: kód obce/MČ (ICZUJ),3041702,0.8598
+RES,území: anonymizovaný zaniklý subjekt (jen IČO),495789,0.1402
+RES,území: jen okres,7,0.0
+RES,"v městě s MČ, MČ nezjištěna",0,0.0
+RES,nejstarší zánik v souboru (rok; řada úplná od konce tohoto roku),2022,
+RES,aktivní bez sekce CZ-NACE,181677,0.0615
+RES,aktivní bez velikostní kategorie,1500896,0.5077
+RES,bez data vzniku (nezapočítáno),0,0.0
+RES,zánik před vznikem,0,0.0

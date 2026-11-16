@@ -1,0 +1,143 @@
+﻿kod_obce,nazev_obce,spravni_obvod,kod_mc,nazev_mc
+582786,Brno,,550973,Brno-střed
+582786,Brno,,550990,Brno-Žabovřesky
+582786,Brno,,551007,Brno-Královo Pole
+582786,Brno,,551031,Brno-sever
+582786,Brno,,551058,Brno-Židenice
+582786,Brno,,551066,Brno-Černovice
+582786,Brno,,551074,Brno-jih
+582786,Brno,,551082,Brno-Bohunice
+582786,Brno,,551091,Brno-Starý Lískovec
+582786,Brno,,551112,Brno-Nový Lískovec
+582786,Brno,,551147,Brno-Kohoutovice
+582786,Brno,,551171,Brno-Jundrov
+582786,Brno,,551198,Brno-Bystrc
+582786,Brno,,551210,Brno-Kníničky
+582786,Brno,,551228,Brno-Komín
+582786,Brno,,551236,Brno-Medlánky
+582786,Brno,,551244,Brno-Řečkovice a Mokrá Hora
+582786,Brno,,551252,Brno-Maloměřice a Obřany
+582786,Brno,,551279,Brno-Vinohrady
+582786,Brno,,551287,Brno-Líšeň
+582786,Brno,,551295,Brno-Slatina
+582786,Brno,,551309,Brno-Tuřany
+582786,Brno,,551317,Brno-Chrlice
+582786,Brno,,551325,Brno-Bosonohy
+582786,Brno,,551368,Brno-Žebětín
+582786,Brno,,551376,Brno-Ivanovice
+582786,Brno,,551406,Brno-Jehnice
+582786,Brno,,551422,Brno-Ořešín
+582786,Brno,,551431,Brno-Útěchov
+563889,Liberec,,556891,Liberec-Vratislavice nad Nisou
+563889,Liberec,,556904,Liberec (nečleněné město)
+505927,Opava,,555321,Opava (nečleněná část města)
+505927,Opava,,555339,Malé Hoštice
+505927,Opava,,555355,Komárov
+505927,Opava,,555371,Suché Lazce
+505927,Opava,,555401,Podvihov
+505927,Opava,,555410,Zlatníky
+505927,Opava,,555436,Milostovice
+505927,Opava,,555461,Vlaštovičky
+505927,Opava,,556700,Vávrovice
+554821,Ostrava,,545911,Moravská Ostrava a Přívoz
+554821,Ostrava,,546046,Slezská Ostrava
+554821,Ostrava,,546135,Ostrava-Jih
+554821,Ostrava,,546224,Poruba
+554821,Ostrava,,554219,Nová Bělá
+554821,Ostrava,,554227,Vítkovice
+554821,Ostrava,,554235,Stará Bělá
+554821,Ostrava,,554243,Pustkovec
+554821,Ostrava,,554286,Mariánské Hory a Hulváky
+554821,Ostrava,,554308,Petřkovice
+554821,Ostrava,,554324,Lhotka
+554821,Ostrava,,554332,Hošťálkovice
+554821,Ostrava,,554367,Nová Ves
+554821,Ostrava,,554375,Proskovice
+554821,Ostrava,,554430,Michálkovice
+554821,Ostrava,,554537,Radvanice a Bartovice
+554821,Ostrava,,554561,Krásné Pole
+554821,Ostrava,,554570,Martinov
+554821,Ostrava,,554588,Polanka nad Odrou
+554821,Ostrava,,554669,Hrabová
+554821,Ostrava,,554685,Svinov
+554821,Ostrava,,554715,Třebovice
+554821,Ostrava,,554723,Plesná
+555134,Pardubice,,555096,Pardubice IV
+555134,Pardubice,,555100,Pardubice VI
+555134,Pardubice,,555118,Pardubice VII
+555134,Pardubice,,555126,Pardubice II
+555134,Pardubice,,557064,Pardubice III
+555134,Pardubice,,557072,Pardubice V
+555134,Pardubice,,574716,Pardubice I
+555134,Pardubice,,575020,Pardubice VIII
+554791,Plzeň,,545970,Plzeň 1
+554791,Plzeň,,545988,Plzeň 2-Slovany
+554791,Plzeň,,546003,Plzeň 3
+554791,Plzeň,,546208,Plzeň 4
+554791,Plzeň,,554731,Plzeň 5-Křimice
+554791,Plzeň,,554758,Plzeň 6-Litice
+554791,Plzeň,,554766,Plzeň 7-Radčice
+554791,Plzeň,,554774,Plzeň 8-Černice
+554791,Plzeň,,557978,Plzeň 10-Lhota
+554791,Plzeň,,559199,Plzeň 9-Malesice
+554782,Praha,Praha 1,500054,Praha 1
+554782,Praha,Praha 2,500089,Praha 2
+554782,Praha,Praha 3,500097,Praha 3
+554782,Praha,Praha 4,500119,Praha 4
+554782,Praha,Praha 5,500143,Praha 5
+554782,Praha,Praha 6,500178,Praha 6
+554782,Praha,Praha 7,500186,Praha 7
+554782,Praha,Praha 8,500208,Praha 8
+554782,Praha,Praha 9,500216,Praha 9
+554782,Praha,Praha 10,500224,Praha 10
+554782,Praha,Praha 9,538060,Praha-Běchovice
+554782,Praha,Praha 10,538078,Praha-Benice
+554782,Praha,Praha 8,538124,Praha-Březiněves
+554782,Praha,Praha 9,538175,Praha-Dolní Počernice
+554782,Praha,Praha 10,538205,Praha-Dubeč
+554782,Praha,Praha 9,538213,Praha 20
+554782,Praha,Praha 9,538302,Praha-Klánovice
+554782,Praha,Praha 9,538353,Praha-Koloděje
+554782,Praha,Praha 10,538361,Praha-Kolovraty
+554782,Praha,Praha 10,538388,Praha-Královice
+554782,Praha,Praha 10,538400,Praha-Křeslice
+554782,Praha,Praha 10,538531,Praha-Nedvězí
+554782,Praha,Praha 9,538736,Praha-Satalice
+554782,Praha,Praha 10,538931,Praha 22
+554782,Praha,Praha 9,538949,Praha 21
+554782,Praha,Praha 9,539007,Praha-Vinoř
+554782,Praha,Praha 5,539449,Praha-Lipence
+554782,Praha,Praha 5,539465,Praha-Lochkov
+554782,Praha,Praha 6,539589,Praha-Přední Kopanina
+554782,Praha,Praha 5,539601,Praha 16
+554782,Praha,Praha 5,539635,Praha-Řeporyje
+554782,Praha,Praha 5,539678,Praha-Slivenec
+554782,Praha,Praha 5,539694,Praha 13
+554782,Praha,Praha 4,539724,Praha-Šeberov
+554782,Praha,Praha 4,539791,Praha-Újezd
+554782,Praha,Praha 5,539864,Praha-Zbraslav
+554782,Praha,Praha 5,539899,Praha-Zličín
+554782,Praha,Praha 4,547034,Praha 11
+554782,Praha,Praha 4,547042,Praha-Kunratice
+554782,Praha,Praha 4,547051,Praha-Libuš
+554782,Praha,Praha 4,547107,Praha 12
+554782,Praha,Praha 5,547115,Praha-Velká Chuchle
+554782,Praha,Praha 6,547140,Praha-Lysolaje
+554782,Praha,Praha 6,547158,Praha-Nebušice
+554782,Praha,Praha 6,547174,Praha 17
+554782,Praha,Praha 6,547271,Praha-Suchdol
+554782,Praha,Praha 8,547298,Praha-Ďáblice
+554782,Praha,Praha 8,547301,Praha-Dolní Chabry
+554782,Praha,Praha 9,547310,Praha-Čakovice
+554782,Praha,Praha 7,547328,Praha-Troja
+554782,Praha,Praha 9,547344,Praha 19
+554782,Praha,Praha 9,547361,Praha 14
+554782,Praha,Praha 10,547379,Praha-Dolní Měcholupy
+554782,Praha,Praha 10,547387,Praha 15
+554782,Praha,Praha 10,547395,Praha-Petrovice
+554782,Praha,Praha 10,547409,Praha-Štěrboholy
+554782,Praha,Praha 9,547417,Praha 18
+554804,Ústí nad Labem,,501298,Ústí nad Labem-Severní Terasa
+554804,Ústí nad Labem,,502081,Ústí nad Labem-Neštěmice
+554804,Ústí nad Labem,,502316,Ústí nad Labem-Střekov
+554804,Ústí nad Labem,,567892,Ústí nad Labem-město

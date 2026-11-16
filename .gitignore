@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+~$*
+
+# zdrojová data (ARES, RES, RÚIAN) stahuje stahni_data.py; kopie z bakalářské práce
+/data/
+# xlsx kopie výstupů, v repu jsou jen CSV
+/vystup/*.xlsx
+# přehled kontrol generuje kontrola.py
+/vystup/kontrola.html
+/vystup/kontrola_souhrn.md
+/vystup/kontrola_stav.txt
+_site/

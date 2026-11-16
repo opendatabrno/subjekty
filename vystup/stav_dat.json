@@ -1,0 +1,25 @@
+{
+  "res_stav": "2026-10-31",
+  "ares_stav": "2026-09-30",
+  "ruian_stav": "2026-10-31",
+  "res_od": 2022,
+  "prvni_rok": 1990,
+  "zpracovano": "2026-11-16",
+  "zdroje": {
+    "res": {
+      "url": "https://opendata.czso.cz/data/od_org03/res_data.csv",
+      "last_modified": "2026-11-03",
+      "stazeno": "2026-11-16"
+    },
+    "ruian": {
+      "url": "https://vdp.cuzk.cz/vymenny_format/csv/20261031_OB_ADR_csv.zip",
+      "stav_k": "2026-10-31",
+      "stazeno": "2026-11-16"
+    },
+    "ares": {
+      "url": "https://ares.gov.cz/otevrena-data/ares_vreo_all.tar.gz",
+      "last_modified": "lokální kopie z 2026-10-30",
+      "stazeno": "2026-10-30"
+    }
+  }
+}

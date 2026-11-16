@@ -1,0 +1,88 @@
+﻿oddil_nace,nazev_oddilu,sekce_nace,nazev_sekce
+01,"Rostlinná a živočišná výroba, myslivost a související činnosti",A,"Zemědělství, lesnictví a rybářství"
+02,Lesnictví a těžba dřeva,A,"Zemědělství, lesnictví a rybářství"
+03,Rybolov a akvakultura,A,"Zemědělství, lesnictví a rybářství"
+05,Těžba černého a hnědého uhlí,B,Těžba a dobývání nerostných surovin
+06,Těžba ropy a zemního plynu,B,Těžba a dobývání nerostných surovin
+07,Těžba rud,B,Těžba a dobývání nerostných surovin
+08,Těžba a dobývání ostatních nerostných surovin,B,Těžba a dobývání nerostných surovin
+09,Podpůrné činnosti pro těžbu a dobývání nerostných surovin,B,Těžba a dobývání nerostných surovin
+10,Výroba potravinářských výrobků,C,Zpracovatelský průmysl
+11,Výroba nápojů,C,Zpracovatelský průmysl
+12,Výroba tabákových výrobků,C,Zpracovatelský průmysl
+13,Výroba textilií,C,Zpracovatelský průmysl
+14,Výroba oděvů,C,Zpracovatelský průmysl
+15,Výroba usní a souvisejících výrobků z jakýchkoli materiálů,C,Zpracovatelský průmysl
+16,"Zpracování dřeva, výroba dřevěných, korkových, proutěných a slaměných výrobků, kromě nábytku",C,Zpracovatelský průmysl
+17,Výroba papíru a výrobků z papíru,C,Zpracovatelský průmysl
+18,Tisk a rozmnožování nahraných nosičů,C,Zpracovatelský průmysl
+19,Výroba koksu a rafinovaných ropných produktů,C,Zpracovatelský průmysl
+20,Výroba chemických látek a chemických výrobků,C,Zpracovatelský průmysl
+21,Výroba základních farmaceutických výrobků a farmaceutických přípravků,C,Zpracovatelský průmysl
+22,Výroba pryžových a plastových výrobků,C,Zpracovatelský průmysl
+23,Výroba ostatních nekovových minerálních výrobků,C,Zpracovatelský průmysl
+24,Výroba základních kovů,C,Zpracovatelský průmysl
+25,"Výroba kovových výrobků, kromě strojů a zařízení",C,Zpracovatelský průmysl
+26,Výroba počítačů a elektronických a optických přístrojů a zařízení,C,Zpracovatelský průmysl
+27,Výroba elektrických zařízení,C,Zpracovatelský průmysl
+28,Výroba strojů a zařízení j. n.,C,Zpracovatelský průmysl
+29,"Výroba motorových vozidel, přívěsů a návěsů",C,Zpracovatelský průmysl
+30,Výroba ostatních dopravních prostředků a zařízení,C,Zpracovatelský průmysl
+31,Výroba nábytku,C,Zpracovatelský průmysl
+32,Ostatní zpracovatelský průmysl,C,Zpracovatelský průmysl
+33,"Opravy, údržba a instalace strojů a zařízení",C,Zpracovatelský průmysl
+35,"Dodávání elektřiny, plynu, páry a klimatizovaného vzduchu",D,"Dodávání elektřiny, plynu, páry a klimatizovaného vzduchu"
+36,"Shromažďování, úprava a distribuce vody",E,"Zásobování vodou; činnosti související s odpadními vodami, odpady a sanacemi"
+37,Činnosti související s odpadními vodami,E,"Zásobování vodou; činnosti související s odpadními vodami, odpady a sanacemi"
+38,"Sběr odpadů, zpracování odpadů k dalšímu využití a odstraňování odpadů",E,"Zásobování vodou; činnosti související s odpadními vodami, odpady a sanacemi"
+39,Sanace a jiné činnosti související s odpady,E,"Zásobování vodou; činnosti související s odpadními vodami, odpady a sanacemi"
+41,Výstavba bytových a nebytových budov,F,Stavební činnosti
+42,Výstavba inženýrských děl,F,Stavební činnosti
+43,Specializované stavební činnosti,F,Stavební činnosti
+46,Velkoobchod,G,Velkoobchod a maloobchod
+47,Maloobchod,G,Velkoobchod a maloobchod
+49,Pozemní a potrubní doprava,H,Doprava a skladování
+50,Vodní doprava,H,Doprava a skladování
+51,Letecká doprava,H,Doprava a skladování
+52,Skladování a podpůrné činnosti pro dopravu,H,Doprava a skladování
+53,Poštovní a kurýrní činnosti,H,Doprava a skladování
+55,Poskytování ubytování,I,Poskytování ubytování a stravování
+56,Poskytování stravování a podávání nápojů,I,Poskytování ubytování a stravování
+58,Vydavatelské činnosti,J,"Vydavatelské činnosti, vysílání a tvorba obsahu a distribuční činnosti"
+59,"Činnosti v oblasti filmů, videozáznamů a televizních pořadů, pořizování zvukových nahrávek a hudební vydavatelské činnosti",J,"Vydavatelské činnosti, vysílání a tvorba obsahu a distribuční činnosti"
+60,"Tvorba programů, vysílání, činnosti zpravodajských tiskových kanceláří a agentur a ostatní činnosti související s distribucí obsahu",J,"Vydavatelské činnosti, vysílání a tvorba obsahu a distribuční činnosti"
+61,Telekomunikační činnosti,K,"Telekomunikační činnosti, počítačové programování a poradenství, poskytování počítačové infrastruktury a ostatní informační činnosti"
+62,"Počítačové programování, poradenství a související činnosti",K,"Telekomunikační činnosti, počítačové programování a poradenství, poskytování počítačové infrastruktury a ostatní informační činnosti"
+63,"Poskytování počítačové infrastruktury, zpracování dat, hosting a ostatní informační činnosti",K,"Telekomunikační činnosti, počítačové programování a poradenství, poskytování počítačové infrastruktury a ostatní informační činnosti"
+64,"Finanční činnosti, kromě pojišťování a penzijního financování",L,Finanční a pojišťovací činnosti
+65,"Pojišťovací a zajišťovací činnosti, penzijní financování, kromě povinného sociálního zabezpečení",L,Finanční a pojišťovací činnosti
+66,Pomocné činnosti k finančním a pojišťovacím činnostem,L,Finanční a pojišťovací činnosti
+68,Činnosti v oblasti nemovitostí,M,Činnosti v oblasti nemovitostí
+69,Právní a účetnické činnosti,N,"Odborné, vědecké a technické činnosti"
+70,Činnosti řízení podniků a poradenství v oblasti podnikání,N,"Odborné, vědecké a technické činnosti"
+71,Architektonické a inženýrské činnosti; technické zkoušky a analýzy,N,"Odborné, vědecké a technické činnosti"
+72,Výzkum a vývoj,N,"Odborné, vědecké a technické činnosti"
+73,"Činnosti v oblasti reklamy, průzkumu trhu a vztahů s veřejností",N,"Odborné, vědecké a technické činnosti"
+74,"Ostatní odborné, vědecké a technické činnosti",N,"Odborné, vědecké a technické činnosti"
+75,Veterinární činnosti,N,"Odborné, vědecké a technické činnosti"
+77,Činnosti v oblasti pronájmu a leasingu,O,Administrativní a podpůrné činnosti
+78,Činnosti související se zaměstnáním,O,Administrativní a podpůrné činnosti
+79,"Činnosti cestovních agentur, kanceláří a ostatní rezervační a související činnosti",O,Administrativní a podpůrné činnosti
+80,Pátrací a bezpečnostní činnosti,O,Administrativní a podpůrné činnosti
+81,Činnosti související se stavbami a úpravou krajiny,O,Administrativní a podpůrné činnosti
+82,"Administrativní, kancelářské a jiné podpůrné činnosti pro podnikání",O,Administrativní a podpůrné činnosti
+84,"Činnosti v oblasti veřejné správy, obrany a povinného sociálního zabezpečení",P,"Činnosti v oblasti veřejné správy, obrany a povinného sociálního zabezpečení"
+85,Vzdělávání,Q,Vzdělávání
+86,Zdravotní péče,R,Zdravotní a sociální péče
+87,Pobytové služby sociální péče,R,Zdravotní a sociální péče
+88,Ambulantní nebo terénní sociální služby,R,Zdravotní a sociální péče
+90,Umělecká tvorba a činnosti v oblasti scénických umění,S,"Činnosti v oblasti kultury, sportu a rekreace"
+91,"Činnosti knihoven, archivů, muzeí a jiných kulturních zařízení",S,"Činnosti v oblasti kultury, sportu a rekreace"
+92,"Činnosti heren, kasin a sázkových kanceláří",S,"Činnosti v oblasti kultury, sportu a rekreace"
+93,"Činnosti v oblasti sportu, zábavy a rekreace",S,"Činnosti v oblasti kultury, sportu a rekreace"
+94,Činnosti organizací sdružujících osoby za účelem prosazování společných a veřejných zájmů,T,Ostatní činnosti
+95,"Opravy a údržba počítačů, výrobků pro osobní potřebu a převážně pro domácnost a motorových vozidel a motocyklů",T,Ostatní činnosti
+96,Poskytování osobních služeb,T,Ostatní činnosti
+97,Činnosti domácností jako zaměstnavatelů domácího personálu,U,Činnosti domácností jako zaměstnavatelů; činnosti domácností produkujících blíže neurčené výrobky a služby pro vlastní potřebu
+98,Činnosti domácností produkujících blíže neurčené výrobky a služby pro vlastní potřebu,U,Činnosti domácností jako zaměstnavatelů; činnosti domácností produkujících blíže neurčené výrobky a služby pro vlastní potřebu
+99,Činnosti exteritoriálních organizací a institucí,V,Činnosti exteritoriálních organizací a institucí
