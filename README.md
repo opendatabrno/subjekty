@@ -181,6 +181,13 @@ jejichž adresa v RÚIAN už neexistuje a nejsou ani v RES. Jsou v řádcích �
 
 ## Co zbývá
 
+- **Insolvence z ISIR (rozpracováno).** [`isir.py`](isir.py) stahuje akce insolvenčního rejstříku
+  z veřejné webové služby ISIR_PUBLIC_WS v mezích provozních podmínek (nejvýš 3 000 volání denně),
+  celá historie od 2008 zabere zhruba tři až čtyři týdny. Pak vznikne tabulka insolvencí po obcích
+  a MČ (zahájená řízení, úpadky, konkurs / reorganizace / oddlužení), dlužníci – fyzické osoby jen
+  v souhrnných počtech. Lokálně se ukládá jen typ osoby, IČO, obec a PSČ dlužníka, žádná jména
+  ani rodná čísla.
+
 - **Uchovávat roky RES, které z okna ČSÚ vypadnou** (teď se řada RES při posunu okna zkrátí), případně
   sbírat měsíční snímky RES a tím zpřesnit i historické sídlo.
 - Napojit sadu na [vizualizace](https://github.com/opendatabrno/vizualizace) (mapa a graf obce).
