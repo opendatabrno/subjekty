@@ -281,7 +281,9 @@ def bilance(d, klice, posledni_rok, stav_posledni, od_roku=PRVNI_ROK):
     roky = list(range(od_roku, posledni_rok + 1))
     rv = d.vznik.dt.year.clip(lower=od_roku)
     rz = d.zanik.dt.year.clip(lower=od_roku)
-    k = [d[c].fillna(-1) if d[c].dtype != object else d[c].fillna("") for c in klice]
+    # číselné klíče: chybějící = -1, textové = "" (pandas 3 má text jako dtype str, ne object)
+    k = [d[c].fillna(-1) if pd.api.types.is_numeric_dtype(d[c]) else d[c].astype(object).fillna("")
+         for c in klice]
     vz = d.groupby(k + [rv]).size()
     za = d[d.zanik.notna()].groupby(k + [rz[d.zanik.notna()]]).size()
     vz.index.names = za.index.names = klice + ["rok"]
@@ -468,6 +470,7 @@ def main():
         b.loc[b.rok == res_od, ["subjekty_vznikle", "subjekty_zanikle"]] = pd.NA
         b.loc[b.rok != rok, VELIKOSTI] = pd.NA  # velikost je jen aktuální stav
         b["nazev_sekce"] = b.sekce_nace.map(NACE.nazvy).fillna(NEZJISTENO)
+        b["rok"] = b.rok.astype(int)
         b["stav_k"] = b.rok.map(stav_k)
         cisla = ["subjekty_aktivni", "subjekty_vznikle", "subjekty_zanikle", "fyzicke_osoby",
                  "pravnicke_osoby", "forma_nezjistena"] + VELIKOSTI

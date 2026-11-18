@@ -66,6 +66,31 @@ def nenulove(k, sloupce):
     return k.loc[maska, "rok"].tolist()
 
 
+SADY = ["subjekty_obce.csv", "subjekty_mestske_casti.csv", "subjekty_nace_okresy.csv",
+        "subjekty_nace_mestske_casti.csv"]
+
+
+def kontrola_formatu():
+    """Rok jako celé číslo, stav_k jako datum, kódy bez zástupných hodnot (-1). Vrací seznam chyb."""
+    chyby = []
+    for jmeno in SADY:
+        cesta = VYSTUP / jmeno
+        if not cesta.exists():
+            chyby.append(f"{jmeno}: soubor chybí")
+            continue
+        d = pd.read_csv(cesta, dtype=str, keep_default_na=False)
+        if not d.rok.str.fullmatch(r"\d{4}").all():
+            chyby.append(f"{jmeno}: rok není celé číslo (např. {d.rok[~d.rok.str.fullmatch(r'\d{4}')].iloc[0]})")
+        if not d.stav_k.str.fullmatch(r"\d{4}-\d{2}-\d{2}").all():
+            chyby.append(f"{jmeno}: stav_k není datum RRRR-MM-DD")
+        elif not (d.stav_k.str[:4] == d.rok).all():
+            chyby.append(f"{jmeno}: stav_k neodpovídá roku")
+        for c in [c for c in d.columns if c.startswith("kod_") or c == "sekce_nace"]:
+            if (d[c] == "-1").any() or d[c].str.contains(r"\.0$").any():
+                chyby.append(f"{jmeno}: sloupec {c} obsahuje -1 nebo desetinné číslo")
+    return chyby
+
+
 def graf(k):
     def sloupce(hodnoty, roky, trida, nadpis):
         w, h, pad_l, pad_b, pad_t = 460, 220, 8, 26, 26
@@ -225,6 +250,11 @@ def main():
     popis_par = (f"Subjekty rejstříku bez obce: {nezj:.1%} (většinou dávno vymazané se starou adresou). "
                  "Anonymizované zaniklé subjekty RES jsou v řádku „nezjištěno“.").replace(".", ",", 1)
 
+    chyby_formatu = kontrola_formatu()
+    stav_fmt = "chyba" if chyby_formatu else "ok"
+    popis_fmt = ("; ".join(chyby_formatu) if chyby_formatu else
+                 "Rok je celé číslo, stav_k datum RRRR-MM-DD odpovídající roku, kódy bez zástupných hodnot.")
+
     roky = f"{k.rok.min()}–{k.rok.max()}"
     stranka = f"""<!doctype html>
 <html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -238,6 +268,7 @@ def main():
 {karta("Součty RES", stav_rs, popis_rs)}
 {karta("MČ proti obcím", stav_mc, popis_mc)}
 {karta("Přiřazení k území", stav_par, popis_par)}
+{karta("Formát výstupů", stav_fmt, popis_fmt)}
 </section>
 
 <h2>Vývoj v čase (ČR)</h2>
@@ -260,7 +291,7 @@ název obce a okresu. Zbytek je v řádcích „nezjištěno“.</p>
     cil = VYSTUP / "kontrola.html"
     cil.write_text(stranka, encoding="utf-8")
 
-    celkem = nejhorsi([stav_vr, stav_rs, stav_mc, stav_par])
+    celkem = nejhorsi([stav_vr, stav_rs, stav_mc, stav_par, stav_fmt])
     ikony = {"ok": "✅", "info": "ℹ️", "varovani": "⚠️", "chyba": "❌"}
     posledni = k.iloc[-1]
     souhrn = [f"## Kontrola zpracování: {ikony[celkem]} {STAVY[celkem][0]}", "",
@@ -268,7 +299,8 @@ název obce a okresu. Zbytek je v řádcích „nezjištěno“.</p>
               f"{cislo(posledni.rejstrik_aktivni)} subjektů, v RES {cislo(posledni.subjekty_aktivni)} aktivních subjektů.",
               "", "| Kontrola | Stav | Detail |", "|---|---|---|"]
     for nazev, stav, popis in [("Součty rejstříku", stav_vr, popis_vr), ("Součty RES", stav_rs, popis_rs),
-                               ("MČ proti obcím", stav_mc, popis_mc), ("Přiřazení k území", stav_par, popis_par)]:
+                               ("MČ proti obcím", stav_mc, popis_mc), ("Přiřazení k území", stav_par, popis_par),
+                               ("Formát výstupů", stav_fmt, popis_fmt)]:
         souhrn.append(f"| {nazev} | {ikony[stav]} {STAVY[stav][0]} | {re.sub(r'</?code>', '`', popis)} |")
     (VYSTUP / "kontrola_souhrn.md").write_text("\n".join(souhrn) + "\n", encoding="utf-8")
     (VYSTUP / "kontrola_stav.txt").write_text(celkem, encoding="utf-8")
